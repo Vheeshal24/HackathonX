@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:homemeals/screens/welcome_screen.dart';
+import 'package:homemeals/screens/splashscreen.dart';
 import 'package:homemeals/theme/theme.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: lightMode,
-      home: const WelcomeScreen(),
+      home: const Splashscreen(),
     );
   }
 }
